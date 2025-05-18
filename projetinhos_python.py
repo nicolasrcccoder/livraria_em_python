@@ -30,8 +30,8 @@ def consultar_livro():
             for livro in lista_livro:
                 if livro['id'] == id_desejado:
                     print(livro)
-                else:
-                    print('ID não encontrado')
+            print('ID não encontrado')
+                   
         elif opcao_consultar == '3':
             autor_desejado = input('digite o nome do autor:')
             for livro in lista_livro[:]:
